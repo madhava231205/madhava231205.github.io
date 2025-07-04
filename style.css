@@ -345,3 +345,55 @@ font-size:18px;
 .thankyouform p{
     color:grey;
 }
+@media (max-width:20cm){
+    nav{
+        position: absolute;
+        
+        top:0;
+        right:0;
+        
+        border-bottom: 2px solid grey;
+        
+        pad: 1rem solid;
+        background-color:rgb(2, 2, 20);
+
+    }
+    .nav-container{
+        display: none;
+    }
+    .links{
+        margin-left: 15%;
+    }
+}
+
+
+@media(max-width:20cm){
+    .main-container{
+        flex-direction: column;
+        margin:5rem 4rem;
+
+    }
+    .image img{
+        width:5.8cm;
+        height: 6cm;
+        
+
+    }
+    .image{
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+.hireform{
+    width: calc(max-width/2);
+    margin: 2cm;
+    margin-top: 15cm;
+    margin-left: 0.5cm;
+    padding: 0.5cm;
+}
+.thankyouform{
+    width: calc(max-width/2);
+    margin: 2cm;
+    margin-top: 15cm;
+    margin-left: 0.5cm;
+}
+}
